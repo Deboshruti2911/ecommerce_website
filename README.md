@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# 🛒 E-commerce Website (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive and modern e-commerce frontend built using **React** and **CSS**. This project simulates an online shopping experience where users can browse product listings, view product details, and manage a shopping cart.
 
-## Available Scripts
+> ⚠️ This is a **frontend-only** project. It does not include backend functionality like user login or payment processing.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔗 [Click here to view the live site](https://e-commerce-project2911.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📸 Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Home Page | Product View | Cart |
+|-----------|--------------|------|
+<img width="1353" height="669" alt="image" src="https://github.com/user-attachments/assets/17d3b2cb-8d28-40d3-a96c-c447165044f7" />
+<img width="1353" height="676" alt="image" src="https://github.com/user-attachments/assets/1d547022-7f30-4af2-8836-b83fa0933282" />
+<img width="1324" height="629" alt="image" src="https://github.com/user-attachments/assets/e0d18216-b016-42f2-9f14-93608bf45638" />
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🔍 Product listing with images, prices, and descriptions  
+- 🛍️ Add to cart functionality with cart state management  
+- 📱 Fully responsive design  
+- 🎨 Clean and minimal UI using pure CSS  
+- 🧭 React Router-based navigation 
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Category | Tech |
+|----------|------|
+| Framework | React |
+| Styling | CSS |
+| Routing | React Router |
+| State Management | useState , useContext  |
+| Build Tool | Vite / CRA (Create React App) |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Folder Structure
 
-## Learn More
+```
+ecommerce_website/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/         # Images or icons
+│   ├── components/     # Reusable UI components (Navbar, ProductCard, etc.)
+│   ├── pages/          # Pages like Home, ProductDetails, Cart
+│   ├── App.js          # Root component
+│   ├── index.js        # Entry point
+│   └── styles/         # CSS files
+└── package.json
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧑‍💻 Getting Started
 
-### Code Splitting
+### 1. Clone the repository
+```bash
+git clone https://github.com/Deboshruti2911/ecommerce_website.git
+cd ecommerce_website
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Install dependencies
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+### 3. Start the development server
+```bash
+npm run dev  # For Vite
+# or
+npm start    # For CRA
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 4. Open in browser
+```
+http://localhost:3000
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌱 Future Improvements
 
-### Advanced Configuration
+- Backend integration (Node.js/Express + MongoDB)  
+- User authentication and order history  
+- Payment gateway integration (Stripe, Razorpay)  
+- Admin dashboard for managing products
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🙌 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to fork the repo and submit pull requests!
 
-### `npm run build` fails to minify
+```bash
+git checkout -b feature/YourFeature
+git commit -m "Add new feature"
+git push origin feature/YourFeature
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
+- UI inspiration from various e-commerce templates  
+- Thanks to the open-source React community!
+
+---
+
+### 👩‍💻 Made with ❤️ by [Deboshruti2911](https://github.com/Deboshruti2911)
