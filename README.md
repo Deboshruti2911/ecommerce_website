@@ -14,12 +14,14 @@ A responsive and modern e-commerce frontend built using **React** and **CSS**. T
 
 ## 📸 Screenshots
 
-| Home Page | Product View | Cart |
-|-----------|--------------|------|
-<img width="1353" height="669" alt="image" src="https://github.com/user-attachments/assets/17d3b2cb-8d28-40d3-a96c-c447165044f7" />
-<img width="1353" height="676" alt="image" src="https://github.com/user-attachments/assets/1d547022-7f30-4af2-8836-b83fa0933282" />
-<img width="1324" height="629" alt="image" src="https://github.com/user-attachments/assets/e0d18216-b016-42f2-9f14-93608bf45638" />
+**Home Page**  
+<img width="1353" height="669" alt="Home" src="https://github.com/user-attachments/assets/17d3b2cb-8d28-40d3-a96c-c447165044f7" />
 
+**Product View**  
+<img width="1353" height="676" alt="Product View" src="https://github.com/user-attachments/assets/1d547022-7f30-4af2-8836-b83fa0933282" />
+
+**Cart Page**  
+<img width="1324" height="629" alt="Cart" src="https://github.com/user-attachments/assets/e0d18216-b016-42f2-9f14-93608bf45638" />
 
 ---
 
@@ -41,7 +43,7 @@ A responsive and modern e-commerce frontend built using **React** and **CSS**. T
 | Styling | CSS |
 | Routing | React Router |
 | State Management | useState , useContext  |
-| Build Tool | Vite / CRA (Create React App) |
+| Build Tool | Create React App (CRA) |
 
 ---
 
@@ -78,9 +80,7 @@ npm install
 
 ### 3. Start the development server
 ```bash
-npm run dev  # For Vite
-# or
-npm start    # For CRA
+npm start    # Using Create React App
 ```
 
 ### 4. Open in browser
